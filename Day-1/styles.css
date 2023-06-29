@@ -1,0 +1,155 @@
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 30px 0px 50px 50px;
+}
+
+/* task-1  Buisness card*/
+
+.card {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 150px;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(rgb(61, 218, 61), rgb(13, 190, 13));
+}
+
+.card > h5 {
+  width: max-content;
+}
+
+.card > button {
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 100px/100px;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* task-2 Profile Card */
+
+.card1 {
+  width: 50%;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.card1 > p {
+  color: gray;
+  font-size: larger;
+  margin: 0px 0px 50px 20px;
+}
+
+.card1 > h1 {
+  margin-left: 20px;
+}
+
+.profile {
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.line {
+  width: 100%;
+  margin-top: 30px;
+  border-top: 2px solid grey;
+}
+
+.profile-view {
+  color: rgb(5, 159, 219);
+  padding: 20px;
+}
+
+/* task-3 card details */
+
+.card3 {
+  width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-image img {
+  width: 100%;
+  display: block;
+}
+
+.lock-img {
+  width: 30px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: gray;
+}
+
+.card-content {
+  padding: 18px;
+  margin: 10px 0px 0px 10px;
+}
+
+.card-content p {
+  color: gray;
+}
+
+.card-button {
+  margin: 10px 0px 20px 20px;
+  color: rgb(5, 159, 219);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+/* task-4 login page */
+
+.login-container {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container h1 {
+  font-family: serif;
+}
+
+.login-container input {
+  margin: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.login-container button {
+  padding: 10px;
+  width: 20%;
+  margin-top: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 100px/100px;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+}
